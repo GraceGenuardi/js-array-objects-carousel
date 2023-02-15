@@ -25,19 +25,17 @@
 .carosello {
 	position: relative;
 }
-
-.carosello .carosello__arrow {
+ .carosello__arrow {
 	position: absolute;
 	font-size: 70px;
 	color: rgb(20, 7, 7);
 	top: 50%;
 	transform: translateY(-50%);
 }
-
-.carosello .carosello__arrow.arrow-left {
-	left: 20px;
+ .carosello__arrow.arrow-left {
+	left: 200px;
 }
 
-.carosello .carosello__arrow.arrow-right {
-	right: 20px;
+ .carosello__arrow.arrow-right {
+	right: 200px;
 }
