@@ -1,6 +1,8 @@
 //MILESTONE 2:Al click dell’utente sulle frecce (una a sinistra e una a destra), il programma cambierà l’immagine attiva, che quindi verrà visualizzata al posto della precedente. 
 
 
+
+
 //1. Dichiariamo le constanti slide, arrow e current slide del nostro carosello
 const slides = document.querySelectorAll('.slide');
 const leftArrow = document.querySelector('.arrow-left');
@@ -60,38 +62,27 @@ function nextSlide() {
 //1. Array con img
 const images = [
     {
-      url: 'image1.jpg',
-      title: 'Immagine 1',
-      description: 'Paesaggi'
-    },
-
-    {
-        url: 'image2.jpg',
-        title: 'Immagine 2',
-        description: 'Paesaggi'
-      },
-
-      {
-        url: 'image3.jpg',
-        title: 'Immagine 3',
-        description: 'Paesaggi'
-      },
-      
-      
-      {
-        url: 'image4.jpg',
-        title: 'Immagine 4',
-        description: 'Paesaggi'
-      },
-      
-      
-      {
-        url: 'image5.jpg',
-        title: 'Immagine 5',
-        description: 'Paesaggi'
-      },  
-    
-  ];
+        image: './img/image1.jpg',
+        title: 'Frodo',
+        text: 'Il mio tesoro',
+    }, {
+        image: './img/image2.jpg',
+        title: 'Frodo',
+        text: 'Il mio tesoro',
+    }, {
+        image: './img/image3.jpg',
+        title: 'Frodo',
+        text: 'Il mio tesoro',
+    }, {
+        image: './img/image4.jpg',
+        title: 'Frodo',
+        text: 'Il mio tesoro',
+    }, {
+        image: './img/image5.jpg',
+        title: 'Frodo',
+        text: 'Il mio tesoro',
+    }
+];
 
   //2. Crea una funzione per generare markup
 
@@ -100,16 +91,16 @@ const images = [
     for (let i = 0; i < images.length; i++) {
       markup += `
         <div class="slide">
-          <img src="${images[i].url}" alt="${images[i].title}">
+          <img src="${images[i].image}" alt="${images[i].title}">
           <h2>${images[i].title}</h2>
-          <p>${images[i].description}</p>
+          <p>${images[i].text}</p>
         </div>
       `;
     }
     return markup;
-  }
+}
 
   //3. Generare generatemarkup
 
-  const slidesContainer = document.querySelector('.slides-container');
+  const slidesContainer = document.querySelector('#slides-container');
 slidesContainer.innerHTML = generateImageMarkup(images);
