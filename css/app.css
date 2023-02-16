@@ -1,4 +1,6 @@
 .body-carosello{
+	background-image: url(../img/sfondo.jpg);
+	background-size: cover;
     
     
 }
@@ -24,18 +26,49 @@
 
 .carosello {
 	position: relative;
+	
 }
  .carosello__arrow {
 	position: absolute;
 	font-size: 70px;
-	color: rgb(20, 7, 7);
+	color: white;
 	top: 50%;
 	transform: translateY(-50%);
 }
  .carosello__arrow.arrow-left {
-	left: 200px;
+	left: 330px;
 }
 
  .carosello__arrow.arrow-right {
-	right: 200px;
+	right: 330px;
 }
+
+
+.slide {
+	position: relative;
+  }
+  
+  .slide img {
+	display: block;
+  }
+  
+  .slide h2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	background-color: rgb(0, 0, 0);
+	padding: 10px;
+	margin: 0;
+  }
+
+  .slide p {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.336);
+	padding: 30px;
+	margin: 0;
+	width: 800px;
+  }

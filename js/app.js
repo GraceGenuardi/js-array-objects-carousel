@@ -19,27 +19,27 @@ const images = [
   {
     image: './img/image1.jpg',
     title: 'Frodo',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ',
+    text: '«Ma sono stato ferito troppo profondamente, Sam. Ho tentato di salvare la Contea, ed è stata salvata, ma non per merito mio. Accade sovente così, Sam, quando le cose sono in pericolo: qualcuno deve rinunciare, perderle, affinché altri possano conservarle»',
   },
   {
     image: './img/image2.jpg',
     title: 'Gimli',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ',
+    text: ' "Quindi indicò a Frodo, nominandoli, coloro che egli non aveva ancora incontrato: accanto a Glóin vi era un giovane nano, che si presentò come suo figlio Gimli."',
   },
   {
     image: './img/image3.jpg',
     title: 'Legolas',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ',
+    text: '"Vi era anche uno strano Elfo vestito di verde e nero, di nome Legolas, inviato dal padre Thranduil, Re degli Elfi a nord del Bosco Atro."',
   },
   {
     image: './img/image4.jpg',
     title: 'Aragorn',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ',
+    text: '"Alto come i Re del passato, si ergeva su tutti i presenti; sembrava anziano e al tempo stesso nel fiore della virilità; e sulla sua fronte vi era saggezza, e nelle sue mani vigore e guarigione, e una luce brillava intorno a lui. E allora Faramir gridò: «Guardate il Re!»"',
   },
   {
     image: './img/image5.jpg',
     title: 'Gandalf',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ',
+    text: '«Mithrandir lo chiamavamo, alla maniera elfica», rispose Faramir, «ed egli ne era contento. "Molti sono i nomi che ho nelle diverse terre", egli soleva dire, "Mithrandir sono per gli Elfi, Tharkûn per i Nani; Olòrin ero da giovane nella ormai obliato Ovest, nel Sud Incànus, nel Nord Gandalf; nel Est non vado mai"»',
   },
 ];
 
